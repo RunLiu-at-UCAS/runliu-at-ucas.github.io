@@ -45,6 +45,11 @@ education:
     B.S. in Internet of Things Engineering
   date: Sep. 2018 - Jul. 2022
 
+activitys:
+- name: Reviewer of IEEE Transactions on Cognitive Communications and Networking (IEEE T-CCN)
+  date: 2024
+- name: Reviewer of IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)
+  date: 2022
 # experience:
 # - name: Peking University
 #   logo: /assets/images/badges/PKU_red.png
