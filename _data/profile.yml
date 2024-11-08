@@ -40,8 +40,9 @@ education:
   date: Sep. 2022 - present
 - name: Central South University
   logo: /assets/images/badges/csu_logo.png
-  position: School of Computer Science and Engineering <br/>
-  B.S. in Internet of Things Engineering
+  position: >- 
+    School of Computer Science and Engineering <br/>
+    B.S. in Internet of Things Engineering
   date: Sep. 2018 - Jul. 2022
 
 # experience:
