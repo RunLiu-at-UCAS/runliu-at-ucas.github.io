@@ -12,6 +12,10 @@
         {%- assign key = _key | split: "#" | first -%}
         {%- assign mark = '<sup>#</sup>' -%}
         {%- assign has_corresponding = true -%}
+    {%- elsif last_char == "^" -%}
+        {%- assign key = _key | split: "^" | first -%}
+        {%- assign mark = '<sup>^</sup>' -%}
+        {%- assign has_projectsupervisor = true -%}
     {%- else -%}
         {%- assign key = _key -%}
         {%- assign mark = "" -%}
@@ -41,7 +45,7 @@
 
 {%- endfor -%}
 
-{%- if has_eq_contrib or has_corresponding %}
+{%- if has_eq_contrib or has_corresponding or has_projectsupervisor %}
 <mark>(
     {%- if has_eq_contrib -%}
         * <i> equal contribution</i>
@@ -49,6 +53,10 @@
     {%- if has_corresponding -%}
         {%- if has_eq_contrib -%}, {% endif -%}
         <sup>#</sup> <i> corresponding author</i>
+    {%- endif -%}
+    {%- if has_projectsupervisor -%}
+        {%- if has_eq_contrib -%}, {% endif -%}
+        <sup>^</sup> <i> project supervisor</i>
     {%- endif -%}
 )</mark>
 {%- endif -%}
