@@ -1,6 +1,6 @@
 ---
 title:          "Joint optimization risk factor and energy consumption in IoT networks with TinyML-enabled internet of UAVs"
-date:           2024-01-01 00:01:00 +0800
+date:           2024-01-02 00:01:00 +0800
 selected:       false
 pub:            "IEEE Internet of Things Journal (IEEE IoT-J)"
 # pub_pre:        "Submitted to "
