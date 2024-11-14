@@ -6,7 +6,7 @@ pub:            "IEEE Transactions on Intelligent Transportation Systems (IEEE T
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2022"
+pub_date:       "2021"
 
 authors:
   - Run Liu
